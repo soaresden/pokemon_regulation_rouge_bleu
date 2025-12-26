@@ -335,12 +335,12 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "CONTINUER"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
+	db   "NOUVEAU JEU "
 	next "OPTION@"
 
 CableClubOptionsText:
@@ -588,11 +588,11 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
+	db   "VITESSE TEXTE"
 	next " FAST  MEDIUM SLOW@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
+	db   "ANIMATION COMBAT"
 	next " ON       OFF@"
 
 BattleStyleOptionText:
