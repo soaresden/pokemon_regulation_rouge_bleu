@@ -36,8 +36,7 @@ INCLUDE "engine/link/cable_club_npc.asm"
 INCLUDE "engine/menus/text_box.asm"
 INCLUDE "engine/battle/move_effects/drain_hp.asm"
 INCLUDE "engine/menus/players_pc.asm"
-INCLUDE "engine/pokemon/remove_mon.asm"
-INCLUDE "engine/events/display_pokedex.asm"
+
 
 
 
@@ -68,6 +67,7 @@ INCLUDE "engine/math/bcd.asm"
 INCLUDE "engine/items/get_bag_item_quantity.asm"
 INCLUDE "engine/overworld/pathfinding.asm"
 INCLUDE "engine/gfx/hp_bar.asm"
+INCLUDE "engine/events/display_pokedex.asm"
 
 SECTION "Font Graphics", ROMX
 
@@ -209,6 +209,7 @@ INCLUDE "engine/menus/pokedex.asm"
 INCLUDE "engine/movie/trade.asm"
 INCLUDE "engine/movie/intro.asm"
 INCLUDE "engine/movie/trade2.asm"
+INCLUDE "engine/pokemon/remove_mon.asm"
 
 
 SECTION "Pokédex Rating", ROMX
